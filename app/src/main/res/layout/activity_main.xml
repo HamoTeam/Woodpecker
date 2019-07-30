@@ -17,4 +17,24 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <Button
+        android:id="@+id/btn_attach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text attach"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_test"
+        />
+
+    <Button
+        android:id="@+id/btn_startActy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startActivity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_attach"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
