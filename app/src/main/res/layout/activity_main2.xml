@@ -9,4 +9,18 @@
     android:background="@color/colorAccent"
     >
 
+    <Button
+        android:id="@+id/btn_gcstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GC"
+        />
+
+    <Button
+        android:id="@+id/btn_obj_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object free"
+        app:layout_constraintTop_toBottomOf="@id/btn_gcstart"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
